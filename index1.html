@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>AzerType</h1>
+      <h2>l'application pour écrire plus vite !</h2>
+      <h3>Tapez vite plus vite !!!</h3>
+    </header>
+
+    <main>
+      <div class="zoneOptions">
+        <p>
+          Choissez Votre option et tapez la proposition qui q'affiche
+          ci-dessous.
+        </p>
+        <div class="optionSource">
+          <input type="radio" name=" "optionSource" id="mots" value="1" checked>
+          <label for="mots">Mots</label>
+          <input type="radio" name="optionSource" id="phrases" value="2" />
+          <label for="phrases">Phrases</label>
+        </div>
+
+        <div class="zoneProposition">Azerty</div>
+
+        <div class="zoneSaisie">
+          <input type="text" id="inputEcriture" name="inputEcriture" />
+          <button id="btnValiderMot">Valider</button>
+        </div>
+
+        <div class="zoneScore">Votre score : <span>0</span></div>
+      </div>
+    </main>
+
+    <footer>@Copyright: OpenCLassrooms. By Dams</footer>
+  </body>
+</html>
